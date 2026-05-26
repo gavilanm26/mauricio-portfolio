@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-mono: var(--font-mono), monospace;
+  
+  --color-warm-bg: #FAF8F5;
+  --color-warm-card: #F3EFEA;
+  --color-warm-border: rgba(28, 26, 23, 0.08);
+  --color-warm-charcoal: #1C1A17;
+  --color-warm-gray: #6B6661;
+  --color-accent-clay: #C2410C;
+  
+  --animate-pulse-slow: pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-float: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Custom CSS Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(28, 26, 23, 0.15);
+  border-radius: 4px;
+  border: 2px solid #FAF8F5;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(28, 26, 23, 0.3);
+}
+
+/* Cinematic film grain overlay for light theme */
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: 0.035;
+  z-index: 60;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Double Bezel Card styling (Doppelrand paper & stone) */
+.double-bezel-outer {
+  background: #F3EFEA;
+  border: 1px solid rgba(28, 26, 23, 0.08);
+  box-shadow: 
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 10px 30px rgba(28, 26, 23, 0.02);
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.double-bezel-inner {
+  background: #FAF8F5;
+  border: 1px solid rgba(28, 26, 23, 0.05);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+/* Soft contact shadow for editorial items */
+.editorial-shadow {
+  box-shadow: 0 30px 60px -15px rgba(28, 26, 23, 0.08);
+}
+
+/* Luxury warm ambient lighting gradient */
+.ambient-glow-1 {
+  background: radial-gradient(circle at 20% 30%, rgba(194, 65, 12, 0.03) 0%, transparent 50%);
+}
+
+.ambient-glow-2 {
+  background: radial-gradient(circle at 80% 70%, rgba(194, 65, 12, 0.025) 0%, transparent 60%);
+}
+
+/* Explicit Native CSS Floating Cards animations and positioning */
+.float-card-1 {
+  position: absolute;
+  z-index: 20;
+  animation: floatCardOne 7s ease-in-out infinite;
+}
+
+.float-card-2 {
+  position: absolute;
+  z-index: 30;
+  animation: floatCardTwo 9s ease-in-out infinite;
+}
+
+.float-card-3 {
+  position: absolute;
+  z-index: 10;
+  animation: floatCardThree 8s ease-in-out infinite;
+}
+
+@keyframes floatCardOne {
+  0%, 100% { transform: translateY(0px) rotate(-1deg); }
+  50% { transform: translateY(-12px) rotate(0.5deg); }
+}
+
+@keyframes floatCardTwo {
+  0%, 100% { transform: translateY(0px) rotate(1deg); }
+  50% { transform: translateY(-16px) rotate(-0.5deg); }
+}
+
+@keyframes floatCardThree {
+  0%, 100% { transform: translateY(0px) rotate(-0.5deg); }
+  50% { transform: translateY(-10px) rotate(0.5deg); }
+}
+
+/* Hero Opposing Motion Parallax Stack Animations */
+.float-hero-1 {
+  position: absolute;
+  z-index: 20;
+  animation: floatHeroOne 8s ease-in-out infinite;
+}
+
+.float-hero-2 {
+  position: absolute;
+  z-index: 30;
+  animation: floatHeroTwo 10s ease-in-out infinite;
+}
+
+.float-hero-3 {
+  position: absolute;
+  z-index: 15;
+  animation: floatHeroThree 9s ease-in-out infinite 0.5s;
+}
+
+.float-hero-4 {
+  position: absolute;
+  z-index: 25;
+  animation: floatHeroFour 11s ease-in-out infinite 1s;
+}
+
+@keyframes floatHeroOne {
+  0%, 100% { transform: translateY(0px) rotate(-1.5deg); }
+  50% { transform: translateY(-14px) rotate(-0.5deg); }
+}
+
+@keyframes floatHeroTwo {
+  /* Floats downwards instead of upwards to create depth */
+  0%, 100% { transform: translateY(0px) rotate(1deg); }
+  50% { transform: translateY(14px) rotate(2deg); }
+}
+
+@keyframes floatHeroThree {
+  0%, 100% { transform: translateY(0px) rotate(-0.8deg); }
+  50% { transform: translateY(-10px) rotate(-0.2deg); }
+}
+
+@keyframes floatHeroFour {
+  /* Floats downwards */
+  0%, 100% { transform: translateY(0px) rotate(1.2deg); }
+  50% { transform: translateY(12px) rotate(0.5deg); }
+}
+
+body {
+  background-color: #FAF8F5;
+  color: #1C1A17;
+  overflow-x: hidden;
+  position: relative;
+}
