@@ -27,7 +27,6 @@ export function TasteSkillImageWheel() {
     <OrthogonalCarousel
       items={items}
       backgroundColor="#f3f0ea"
-      className="pointer-events-none absolute right-[-340px] top-[-280px] hidden h-[1120px] w-[1220px] overflow-hidden lg:block xl:right-[-200px] 2xl:right-[-90px] z-10"
     />
   );
 }
