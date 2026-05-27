@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@gavilanm/ui": "^1.1.0",
+    "@gavilanm/ui": "^1.1.1",
     "@phosphor-icons/react": "^2.1.10",
     "framer-motion": "^12.40.0",
     "next": "16.2.6",

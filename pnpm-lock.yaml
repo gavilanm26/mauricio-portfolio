@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@gavilanm/ui':
-        specifier: ^1.1.0
-        version: 1.1.0(framer-motion@12.40.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        specifier: ^1.1.1
+        version: 1.1.1(framer-motion@12.40.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@phosphor-icons/react':
         specifier: ^2.1.10
         version: 2.1.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -172,8 +172,8 @@ packages:
     resolution: {integrity: sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@gavilanm/ui@1.1.0':
-    resolution: {integrity: sha512-UXaAY4MGvH5COY+d05jR2vFfKn/fVqJxLwTJBlNjDCc/orTmZ9d8OpuWn7lR3VqRrCdczOWViQ5WC3sN2NKbxw==}
+  '@gavilanm/ui@1.1.1':
+    resolution: {integrity: sha512-WFauBV7fMcplD0h7oYsK07e1ESR6TW6l4CaowNvs8V1UP+t+cqYqTCQj7tishnUwtKFoFHVRtdZEZ1fFYmP+rQ==}
     peerDependencies:
       framer-motion: ^10.0.0 || ^11.0.0 || ^12.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -2146,7 +2146,7 @@ snapshots:
       '@eslint/core': 0.17.0
       levn: 0.4.1
 
-  '@gavilanm/ui@1.1.0(framer-motion@12.40.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@gavilanm/ui@1.1.1(framer-motion@12.40.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       framer-motion: 12.40.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react: 19.2.4

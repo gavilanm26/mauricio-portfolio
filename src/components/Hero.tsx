@@ -222,7 +222,12 @@ export function Hero() {
                   className="w-[290px] h-[150px] sm:w-[365px] sm:h-[189px] shrink-0 overflow-hidden rounded-[11px] sm:rounded-[14px] shadow-sm border border-black/[0.02]"
                 >
                   <div className="scale-[0.596] sm:scale-[0.751] origin-top-left">
-                    <OrthogonalCard kind={item.kind} />
+                    <OrthogonalCard 
+                      kind={item.kind} 
+                      title={item.title}
+                      badge={item.badge}
+                      bgImage={item.bgImage}
+                    />
                   </div>
                 </div>
               ))}
