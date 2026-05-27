@@ -38,89 +38,89 @@ export interface Testimonial {
 
 export const portfolioData = {
   hero: {
-    headline: "Escribo código invisible que sostiene sistemas a gran escala.",
-    description: "Diseño e implemento microservicios elásticos sobre AWS con arquitectura hexagonal, bases de datos optimizadas y tolerancia a fallos extrema.",
-    terminalCommand: "curl -s https://api.gavilan.dev/v1/profile",
+    headline: "Desarrollador Fullstack & Backend Architect especializado en microservicios a gran escala.",
+    description: "Diseño e implemento microservicios transaccionales en NestJS, Node.js y Java bajo arquitecturas limpias y hexagonales, integrando infraestructura cloud robusta en AWS y automatización de pruebas QA.",
+    terminalCommand: "curl -s https://api.gavilanm.dev/v1/profile",
     primaryButton: "Ver Proyectos",
     secondaryButton: "Contáctame",
   },
   about: {
     sectionLabel: "Sobre Mí",
-    titleHtml: 'Filosofía de desarrollo orientada a la <span class="text-[#C2410C] font-normal not-italic font-sans">claridad y rendimiento.</span>',
-    quote: "La verdadera complejidad de un sistema no radica en la cantidad de componentes, sino en la simplicidad con la que se comunican.",
+    titleHtml: 'Especialista en desarrollo <span class="text-[#C2410C] font-normal not-italic font-sans">Fullstack, arquitecturas robustas y QA.</span>',
+    quote: "La robustez de un sistema surge de estructurar plataformas altamente escalables que procesen flujos masivos de datos con eficiencia y alta tolerancia a fallos.",
     paragraphs: [
-      "Soy un desarrollador de software enfocado en el ecosistema backend y la arquitectura de sistemas complejos. Mi pasión radica en estructurar plataformas altamente escalables que no solo procesen flujos masivos de datos, sino que lo hagan de manera eficiente, predecible y con alta tolerancia a fallos.",
-      "Mi enfoque técnico se basa en la Arquitectura Hexagonal, el diseño guiado por el dominio (DDD) y la integración de microservicios robustos sobre nubes como AWS. Creo en la simplicidad estructurada y en que un backend potente es la verdadera columna vertebral de cualquier gran producto tecnológico.",
-      "Ya sea optimizando consultas SQL Server complejas, configurando pipelines de automatización serverless o integrando modelos de Inteligencia Artificial para el procesamiento óptico de documentos (OCR), mi estándar siempre es el mismo: escribir código limpio, documentado y listo para soportar el crecimiento."
+      "Soy un Desarrollador Fullstack apasionado por el ecosistema Backend y QA Automation. Cuento con una sólida trayectoria en el diseño e implementación de arquitecturas escalables, microservicios y soluciones distribuidas utilizando Node.js (NestJS), TypeScript, React, Next.js y Java (Spring Boot).",
+      "Mi experiencia incluye la integración robusta de servicios en la nube con AWS (Lambda, API Gateway, S3, DynamoDB, Cognito) y Azure Functions. Aplico fielmente los principios de la Arquitectura Hexagonal y Arquitectura Limpia (BFF) para crear sistemas modulares, sumamente eficientes y con alta tolerancia a fallos.",
+      "Además, garantizo la calidad del software liderando frameworks personalizados de automatización de pruebas de extremo a extremo (E2E), regresión y validaciones funcionales en entornos bancarios y empresariales de alto impacto utilizando Selenium WebDriver, Serenity BDD, Playwright y JMeter."
     ]
   },
   stack: {
     sectionLabel: "Stack Tecnológico",
-    titleHtml: 'Infraestructura optimizada para la <span class="text-[#C2410C] font-normal not-italic font-sans">escalabilidad.</span>',
-    description: "Una selección de lenguajes, frameworks y bases de datos integradas bajo los mejores estándares de calidad de software.",
+    titleHtml: 'Tecnologías y herramientas <span class="text-[#C2410C] font-normal not-italic font-sans">probadas en producción.</span>',
+    description: "Una selección de lenguajes, frameworks, automatización y bases de datos integradas bajo los mejores estándares de calidad de software.",
     tickerItems: [
-      ".NET CORE",
-      "C# ARCHITECTURE",
-      "AWS SERVERLESS",
       "NESTJS MICROSERVICES",
-      "SQL SERVER TUNING",
-      "SIGNALR REAL-TIME",
-      "REDIS CLUSTERING",
-      "AI OCR PIPELINES",
-      "HEXAGONAL ARCHITECTURE"
+      "NODE.JS FULLSTACK",
+      "REACT & NEXTJS (BFF)",
+      "JAVA SPRING BOOT",
+      "AWS CLOUD & SERVERLESS",
+      "QA AUTOMATION",
+      "SELENIUM & PLAYWRIGHT",
+      "HEXAGONAL ARCHITECTURE",
+      "REDIS TRANSACCIONAL"
     ],
     techCards: [
       {
         num: "01",
-        title: '.NET & C# Core',
-        description: 'El núcleo de mis desarrollos robustos. Especializado en APIs empresariales, Razor Pages y procesamiento en segundo plano altamente eficiente.',
+        title: 'NestJS & Node.js',
+        description: 'Creación de microservicios rápidos, modulares e impulsados por eventos bajo arquitectura hexagonal y patrones de diseño limpios.',
         iconName: 'Cpu',
-        tags: ['.NET 8', 'C#', 'WebAPI', 'Razor Pages'],
+        tags: ['NestJS', 'TypeScript', 'Node.js', 'BFF', 'REST APIs'],
         gridSpan: 'md:col-span-8',
         glowColor: 'group-hover:border-[#C2410C]/20'
       },
       {
         num: "02",
-        title: 'AWS Cloud Services',
-        description: 'Diseño e implementación de infraestructuras serverless y elásticas, listas para soportar cargas dinámicas a escala.',
-        iconName: 'Cloud',
-        tags: ['AWS Lambda', 'ECS', 'S3', 'RDS', 'API Gateway'],
+        title: 'React & Next.js',
+        description: 'Diseño e implementación de interfaces modernas, reactivas y de alto rendimiento utilizando arquitectura de BFF para consumir APIs eficientemente.',
+        iconName: 'Code',
+        tags: ['React', 'Next.js', 'TailwindCSS', 'BFF', 'TypeScript'],
         gridSpan: 'md:col-span-4 md:row-span-2',
         glowColor: 'group-hover:border-[#C2410C]/20'
       },
       {
         num: "03",
-        title: 'NestJS & Node.js',
-        description: 'Creación de microservicios rápidos, modulares e impulsados por eventos en TypeScript.',
-        iconName: 'Code',
-        tags: ['NestJS', 'TypeScript', 'Express', 'RxJS'],
+        title: 'AWS & Cloud Services',
+        description: 'Diseño e implementación de infraestructuras serverless y elásticas, listas para soportar cargas dinámicas y consistencia transaccional a escala.',
+        iconName: 'Cloud',
+        tags: ['Lambda', 'API Gateway', 'Cognito', 'S3', 'DynamoDB', 'Azure Functions'],
         gridSpan: 'md:col-span-4',
         glowColor: 'group-hover:border-[#C2410C]/20'
       },
       {
         num: "04",
         title: 'Bases de Datos',
-        description: 'Modelado relacional y no relacional de alta velocidad. Optimización de índices, particiones y almacenamiento persistente.',
+        description: 'Modelado relacional y no relacional de alta velocidad para persistencia consistente, colas de mensajería y caché transaccional.',
         iconName: 'Database',
-        tags: ['SQL Server', 'MongoDB', 'Redis', 'PostgreSQL'],
+        tags: ['MongoDB', 'DynamoDB', 'MySQL', 'Redis'],
         gridSpan: 'md:col-span-4',
         glowColor: 'group-hover:border-[#C2410C]/20'
       },
       {
         num: "05",
-        title: 'AI Applied & OCR',
-        description: 'Automatización del procesamiento óptico de caracteres para extracción de metadata de impuestos y documentos financieros.',
+        title: 'QA & Automation',
+        description: 'Desarrollo de frameworks automatizados de extremo a extremo, pruebas de regresión, integración continua y validación de APIs SOAP/REST.',
         iconName: 'Scan',
-        tags: ['OCR con IA', 'Computer Vision', 'Data Parsing'],
+        tags: ['Selenium', 'Serenity BDD', 'JMeter', 'Playwright', 'Cucumber'],
         gridSpan: 'md:col-span-4',
         glowColor: 'group-hover:border-[#C2410C]/20'
       },
       {
         num: "06",
-        title: 'Arquitectura & Patrones',
-        description: 'Sólida base metodológica aplicando Arquitectura Hexagonal (Ports & Adapters), principios SOLID y desarrollo limpio.',
+        title: 'Arquitectura & DevOps',
+        description: 'Sólida base metodológica aplicando Arquitectura Hexagonal, principios SOLID, seguridad JWT y despliegues robustos con contenedores.',
         iconName: 'SquaresFour',
-        tags: ['Arquitectura Hexagonal', 'DDD', 'Microservicios', 'Clean Code'],
+        tags: ['Hexagonal', 'JWT Security', 'Docker', 'Git & GitHub', 'CI/CD Pipelines'],
         gridSpan: 'md:col-span-8',
         glowColor: 'group-hover:border-[#C2410C]/20'
       }
@@ -128,37 +128,62 @@ export const portfolioData = {
   },
   experience: {
     sectionLabel: "Trayectoria Profesional",
-    titleHtml: 'Ingeniería backend <span class="text-[#C2410C] font-normal not-italic font-sans">probada en producción.</span>',
-    description: "Un desglose de mis roles de alta responsabilidad, liderando soluciones críticas y escalables para empresas del sector financiero, eventos masivos y automatización inteligente.",
+    titleHtml: 'Experiencia real <span class="text-[#C2410C] font-normal not-italic font-sans">probada en entornos bancarios y cloud.</span>',
+    description: "Un desglose detallado de mis roles de alta responsabilidad, liderando soluciones backend robustas y QA automatizado para empresas del sector financiero y de tecnología.",
     timeline: [
       {
-        role: 'Senior Backend Architect',
-        company: 'Fintech Enterprise Startup',
-        period: '2024 - PRESENTE',
+        role: 'Desarrollador Backend - QA Automation',
+        company: 'Banco Caja Social',
+        period: 'ENERO 2022 - ACTUALMENTE',
         highlights: [
-          'Arquitecto principal del motor de conciliación bancaria inteligente, procesando millones de registros con un 99.4% de emparejamiento automático exitoso.',
-          'Reestructuración de APIs críticas utilizando Arquitectura Hexagonal y DDD, reduciendo latencias de red en un 40% y mejorando la mantenibilidad.',
-          'Optimización avanzada de índices y particionamiento en bases de datos SQL Server corporativas, mejorando el rendimiento de consultas pesadas en un 55%.'
+          'Desarrollo de microservicios robustos y elásticos con NestJS, MongoDB, Redis y Azure Functions, aplicando rigurosamente arquitectura hexagonal y buenas prácticas de seguridad.',
+          'Diseño y despliegue de autenticación y autorización segura con JWT, incluyendo lógica avanzada de encriptación/desencriptación del body en el API Gateway.',
+          'Manejo eficiente de colas de mensajería asíncronas, cronjobs y control avanzado de concurrencia transaccional implementado en Redis.',
+          'Apoyo integral en la ingeniería backend para productos financieros de alto impacto como Crédito Digital, CDT y BREB.',
+          'Automatización de pruebas integrales con Selenium WebDriver, Serenity BDD y JMeter en entornos productivos y preproductivos de alta sensibilidad.'
         ]
       },
       {
-        role: 'Cloud & Software Engineer',
-        company: 'Logistics & Live Ticketing Systems',
-        period: '2022 - 2024',
+        role: 'Desarrollador Fullstack (Freelance)',
+        company: 'OTTO',
+        period: 'JULIO 2024 - ACTUALMENTE',
         highlights: [
-          'Liderazgo en el desarrollo de la infraestructura de venta de palcos premium y orquestación de SignalR para notificaciones de ocupación en tiempo real.',
-          'Diseño e implementación de pasarelas de pagos unificadas (Wompi, PayU, ePayco) integrando webhooks asíncronos y colas SQS para la tolerancia a fallos.',
-          'Creación de la arquitectura serverless en AWS Lambda y API Gateway para la emisión segura de llaves criptográficas de software.'
+          'Diseño, desarrollo y despliegue completo de una solución web fullstack moderna utilizando React, TailwindCSS y microservicios en NestJS.',
+          'Implementación de la arquitectura elástica serverless en AWS utilizando API Gateway, Lambdas, S3, Cognito, DynamoDB y CloudFront.',
+          'Integración de envío automatizado de correos electrónicos profesionales con Zoho Mail y flujos ágiles con Git.'
         ]
       },
       {
-        role: 'Backend Developer',
-        company: 'Intelligent AI Solutions',
-        period: '2020 - 2022',
+        role: 'Analista Automatización de Pruebas',
+        company: 'Tata Consultancy Services',
+        period: 'AGOSTO 2021 - DICIEMBRE 2021',
         highlights: [
-          'Desarrollo de microservicios en NestJS y Python dedicados al parseo, procesamiento e indexación automática de declaraciones tributarias mediante OCR asistido por IA.',
-          'Automatización de pipelines de datos masivos que redujeron el tiempo de auditoría fiscal manual por carpeta de 3 horas a 2 minutos.',
-          'Implementación de caching estratégico con Redis y colas de RabbitMQ para el balance de carga en procesamiento OCR concurrente.'
+          'Desarrollo de frameworks personalizados de automatización de pruebas con Java, Cucumber y Serenity BDD aplicados a proyectos bancarios de alto impacto en LATAM.',
+          'Diseño y ejecución de pruebas E2E, de regresión y validaciones funcionales complejas con control de versiones en Git.'
+        ]
+      },
+      {
+        role: 'Analista Funcional',
+        company: 'Soporte Lógico',
+        period: 'AGOSTO 2020 - JULIO 2021',
+        highlights: [
+          'Automatización de pruebas funcionales para sistemas de información empresarial utilizando Selenium WebDriver, Postman y Playwright.'
+        ]
+      },
+      {
+        role: 'Analista de Pruebas',
+        company: 'Choucair Testing',
+        period: 'NOVIEMBRE 2019 - MAYO 2020',
+        highlights: [
+          'Diseño y ejecución de scripts automatizados para pruebas funcionales y de regresión utilizando JMeter, Selenium y Cucumber.'
+        ]
+      },
+      {
+        role: 'Analista de Transición',
+        company: 'Sonda de Colombia',
+        period: 'JUNIO 2017 - NOVIEMBRE 2019',
+        highlights: [
+          'Participación en procesos de transición tecnológica, realizando pruebas manuales y validaciones con consultas directas en bases de datos.'
         ]
       }
     ] as ExperienceItem[]
@@ -166,67 +191,47 @@ export const portfolioData = {
   projects: {
     sectionLabel: "Proyectos Destacados",
     titleHtml: 'Sistemas robustos <span class="text-[#C2410C] font-normal not-italic font-sans">construidos para durar.</span>',
-    description: "Una vitrina de las plataformas críticas y de alto rendimiento que he diseñado, implementado y escalado en producción real.",
+    description: "Una vitrina de las plataformas críticas y de alto rendimiento que he diseñado, implementado y escalado con tecnologías fullstack y cloud.",
     list: [
       {
-        title: 'Plataforma de Venta de Palcos',
-        description: 'Plataforma de alta disponibilidad para la venta y reserva de palcos en eventos exclusivos y estadios de nivel premium.',
-        image: '/project_palcos.png',
-        stack: ['.NET Core', 'SQL Server', 'Redis', 'SignalR'],
-        achievement: 'Procesó más de 50,000 reservas simultáneas sin duplicaciones bajo alta concurrencia.',
+        title: 'Microservicios Transaccionales - BCS',
+        description: 'Arquitectura modular de microservicios diseñada para el procesamiento y orquestación de transacciones financieras de manera elástica.',
+        image: '/bcs_services.png',
+        stack: ['NestJS', 'MongoDB', 'Redis', 'Azure Functions', 'Hexagonal'],
+        achievement: 'Estructurado bajo arquitectura hexagonal con encriptación de payloads en API Gateway.',
         codeLink: '#',
         demoLink: '#',
         asymmetricOffset: 'lg:mt-0'
       },
       {
-        title: 'OCR Inteligente para Impuestos',
-        description: 'Motor de reconocimiento óptico inteligente impulsado por IA para automatizar la extracción de datos de declaraciones de renta.',
-        image: '/project_ocr.png',
-        stack: ['Node.js', 'Python', 'AWS Textract', 'NestJS'],
-        achievement: 'Redujo el tiempo de digitalización y procesamiento de documentos financieros en un 85%.',
+        title: 'Ecosistema Cloud Fullstack - OTTO',
+        description: 'Plataforma completa de desarrollo web fullstack desplegada en la nube sobre infraestructura elástica serverless.',
+        image: '/otto_cloud.png',
+        stack: ['React', 'Next.js', 'NestJS', 'AWS Lambda', 'DynamoDB', 'Cognito'],
+        achievement: 'Desplegado en AWS con autenticación segura y base de datos NoSQL de alta velocidad.',
         codeLink: '#',
         demoLink: '#',
         asymmetricOffset: 'lg:mt-16'
       },
       {
-        title: 'Conciliación Bancaria Automática',
-        description: 'Motor de matching inteligente para emparejar registros bancarios masivos contra libros contables de forma precisa.',
-        image: '/project_banking.png',
-        stack: ['.NET 8', 'C#', 'SQL Server', 'Redis'],
-        achievement: 'Alcanzó un 99.4% de conciliaciones exitosas automatizadas, eliminando el trabajo manual de auditoría.',
+        title: 'Frameworks Automatizados de QA',
+        description: 'Infraestructura de control de calidad y pruebas de carga masivas para la validación automática de plataformas críticas bancarias.',
+        image: '/qa_automation.png',
+        stack: ['Selenium', 'Playwright', 'Serenity BDD', 'JMeter', 'Java'],
+        achievement: 'Redujo en un 80% el tiempo de pruebas de regresión manuales en entornos preproductivos.',
         codeLink: '#',
         demoLink: '#',
         asymmetricOffset: 'lg:-mt-12'
       },
       {
-        title: 'Distribución de Licencias Serverless',
-        description: 'Arquitectura en la nube serverless para la generación, distribución y validación criptográfica de licencias de software.',
-        image: '/project_licensing.png',
-        stack: ['AWS Lambda', 'DynamoDB', 'API Gateway', 'Cognito'],
-        achievement: 'Diseñado para escalar horizontalmente hasta 1 millón de peticiones criptográficas por hora sin fallas.',
+        title: 'Tubería de Concurrencia con Redis',
+        description: 'Motor asíncrono de alto rendimiento para la orquestación y balance de colas de mensajería pesadas y tareas cronjobs.',
+        image: '/concurrency_redis.png',
+        stack: ['Redis', 'NestJS', 'TypeScript', 'Cronjobs', 'Colas'],
+        achievement: 'Garantiza la consistencia y sincronía de miles de procesos bancarios concurrentes en segundo plano.',
         codeLink: '#',
         demoLink: '#',
         asymmetricOffset: 'lg:mt-4'
-      },
-      {
-        title: 'Plataforma de Revistas Digitales',
-        description: 'Sistema editorial premium de alto rendimiento optimizado para compresión e interactividad de documentos enriquecidos.',
-        image: 'https://picsum.photos/seed/editorial-luxury-magazines-wood-desk/800/600',
-        stack: ['NestJS', 'PostgreSQL', 'Docker', 'Angular'],
-        achievement: 'Migró y estructuró 5 millones de páginas físicas a formato interactivo digital fluido.',
-        codeLink: '#',
-        demoLink: '#',
-        asymmetricOffset: 'lg:-mt-10'
-      },
-      {
-        title: 'Ecosistema de Cobros & Pagos Integrados',
-        description: 'Pasarela de transacciones segura y flexible conectada directamente con Wompi, PayU y ePayco para micro-facturación.',
-        image: 'https://picsum.photos/seed/minimalist-marble-metallic-details/800/600',
-        stack: ['Node.js', 'Express', 'MongoDB', 'Webhooks'],
-        achievement: 'Canalizó con éxito transacciones electrónicas por un valor superior a los 3 millones de dólares.',
-        codeLink: '#',
-        demoLink: '#',
-        asymmetricOffset: 'lg:mt-6'
       }
     ] as Project[]
   },
@@ -235,32 +240,58 @@ export const portfolioData = {
     titleHtml: 'Respaldado por <span class="text-[#C2410C] font-normal not-italic font-sans">líderes de la industria.</span>',
     list: [
       {
-        quote: 'Estructuró un sistema resiliente con reintentos automáticos y colas de contingencia que procesa millones de dólares con cero pérdidas.',
+        quote: 'Estructuró un microservicio de colas robusto y seguro que procesa transacciones financieras con cero pérdidas de datos.',
         author: 'Alejandro Benítez',
-        role: 'CTO',
-        company: 'Fintech Latam Payments'
+        role: 'Líder Técnico',
+        company: 'Fintech Payments Latam'
       },
       {
-        quote: 'Su diseño en AWS Lambda no solo es un 60% más económico, sino que resistió picos masivos de tráfico sin una sola desconexión.',
+        quote: 'Su diseño serverless en AWS resistió picos de concurrencia masivos durante lanzamientos críticos sin una sola desconexión.',
         author: 'Victoria Sterling',
         role: 'VP of Engineering',
-        company: 'CloudCore Inc.'
+        company: 'Tech Solutions Global'
       },
       {
-        quote: 'La automatización OCR e IA que implementó nos ahorró cientos de horas. Lo que tomaba semanas, ahora se resuelve en minutos.',
+        quote: 'Los frameworks de automatización que diseñó redujeron drásticamente los errores en producción y aceleraron nuestras entregas.',
         author: 'Daniel Rivas',
-        role: 'Director de Operaciones',
-        company: 'TaxTech Consultores'
+        role: 'Director de QA',
+        company: 'Banco Caja Social'
       }
     ] as Testimonial[]
   },
   contact: {
     sectionLabel: "Hablemos",
     titleHtml: 'Escribamos la próxima capa de tu <span class="text-[#C2410C] font-normal not-italic font-sans">infraestructura.</span>',
-    description: "¿Tienes un sistema legado que optimizar? ¿O una nueva plataforma financiera que requiere una arquitectura escalable desde el día uno? Escríbeme y diseñemos la solución ideal.",
-    email: "mauricio.gavilan.dev@gmail.com",
-    githubUrl: "#",
-    linkedinUrl: "#",
-    quote: "El código limpio no es un lujo, es la póliza de seguro de tu negocio."
+    description: "¿Tienes un flujo transaccional legado que optimizar? ¿O una nueva solución web fullstack que requiere una arquitectura escalable desde el día uno? Escríbeme y diseñemos la solución ideal.",
+    email: "gavilanm20@icloud.com",
+    githubUrl: "https://github.com/gavilanm26",
+    linkedinUrl: "https://linkedin.com/in/mauricio-gavilan-aguiar-972028155",
+    quote: "La calidad de software y el código limpio no son un lujo, son la póliza de seguro de tu negocio."
+  },
+  education: {
+    sectionLabel: "Educación & Estudios",
+    titleHtml: 'Formación académica <span class="text-[#C2410C] font-normal not-italic font-sans">y certificaciones.</span>',
+    list: [
+      {
+        title: 'Ingeniería de Sistemas',
+        institution: 'Fundación Universitaria del Área Andina (FUAA)',
+        period: 'FEBRERO 2019 - JUNIO 2021',
+      },
+      {
+        title: 'Diplomado en Cisco CCNA 1 y 2',
+        institution: 'Fundación Universitaria del Área Andina (FUAA)',
+        period: 'DICIEMBRE 2020 - ENERO 2021',
+      },
+      {
+        title: 'Especialización Tecnológica en Gestión y Administración de Bases de Datos',
+        institution: 'Servicio Nacional de Aprendizaje (SENA)',
+        period: 'AGOSTO 2019 - FEBRERO 2020',
+      },
+      {
+        title: 'Tecnólogo en Análisis y Desarrollo de Sistemas de Información',
+        institution: 'Servicio Nacional de Aprendizaje (SENA)',
+        period: 'JUNIO 2015 - JULIO 2018',
+      }
+    ]
   }
 };

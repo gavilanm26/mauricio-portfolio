@@ -69,6 +69,50 @@ export function Experience() {
           ))}
         </div>
       </div>
+
+      {/* SECCIÓN DE EDUCACIÓN & ESTUDIOS INTEGRADA */}
+      <div className="relative z-10 w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 mt-24 pt-16 border-t border-[#1C1A17]/10">
+        {/* Left Column: Header */}
+        <div className="lg:col-span-4 flex flex-col items-start text-left gap-4 lg:sticky lg:top-32 h-fit">
+          <div className="inline-flex items-center rounded-full border border-white/40 bg-[#F3EFEA]/80 px-3.5 py-1 text-[9px] uppercase tracking-[0.2em] font-bold text-[#1C1A17] shadow-sm">
+            {portfolioData.education.sectionLabel}
+          </div>
+          <h2 
+            className="text-3xl md:text-5xl font-serif font-light tracking-tight leading-tight text-[#1C1A17] italic"
+            dangerouslySetInnerHTML={{ __html: portfolioData.education.titleHtml }}
+          />
+        </div>
+
+        {/* Right Column: Academic items */}
+        <div className="lg:col-span-8 flex flex-col border-t border-[#1C1A17]/10 text-left w-full">
+          {portfolioData.education.list.map((item, i) => (
+            <motion.div
+              key={item.title + item.period}
+              initial={reduceMotion ? {} : { opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.15 }}
+              transition={{ duration: 0.8, delay: i * 0.05, ease: [0.16, 1, 0.3, 1] }}
+              className="relative flex flex-col md:grid md:grid-cols-12 gap-2 md:gap-8 py-8 border-b border-[#1C1A17]/8 group"
+            >
+              {/* Period */}
+              <div className="md:col-span-3 flex items-start gap-1.5 text-[10px] font-mono text-[#C2410C]/80 tracking-widest font-bold">
+                <Calendar size={12} className="mt-0.5" />
+                <span>{item.period}</span>
+              </div>
+
+              {/* Title & Institution */}
+              <div className="md:col-span-9 flex flex-col gap-1">
+                <h3 className="text-lg md:text-xl font-bold tracking-tight text-[#1C1A17] group-hover:text-[#C2410C] transition-colors duration-300">
+                  {item.title}
+                </h3>
+                <p className="text-[#6B6661] text-xs md:text-sm font-semibold uppercase tracking-wider">
+                  {item.institution}
+                </p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
     </section>
   );
 }
