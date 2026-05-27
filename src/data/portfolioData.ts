@@ -38,89 +38,90 @@ export interface Testimonial {
 
 export const portfolioData = {
   hero: {
-    headline: "Desarrollador Fullstack & Backend Architect especializado en microservicios a gran escala.",
-    description: "Diseño e implemento microservicios transaccionales en NestJS, Node.js y Java bajo arquitecturas limpias y hexagonales, integrando infraestructura cloud robusta en AWS y automatización de pruebas QA.",
+    roleBadge: "Líder Técnico & Backend Architect",
+    headline: "Líder Técnico experto en sistemas transaccionales, idempotencia y microservicios elásticos.",
+    description: "Especializado en diseñar arquitecturas de alta concurrencia con NestJS, Node.js y React/Next.js. Experto en mensajería asíncrona mediante colas y tópicos de Azure, bases de datos MongoDB/Redis, extracción inteligente de datos con OCR, validación de identidad con APIs bancarias/Transunion, motores de reglas Zen Engine y empaquetamiento de librerías backend y frontend.",
     terminalCommand: "curl -s https://api.gavilanm.dev/v1/profile",
     primaryButton: "Ver Proyectos",
     secondaryButton: "Contáctame",
   },
   about: {
     sectionLabel: "Sobre Mí",
-    titleHtml: 'Especialista en desarrollo <span class="text-[#C2410C] font-normal not-italic font-sans">Fullstack, arquitecturas robustas y QA.</span>',
-    quote: "La robustez de un sistema surge de estructurar plataformas altamente escalables que procesen flujos masivos de datos con eficiencia y alta tolerancia a fallos.",
+    titleHtml: 'Liderazgo técnico enfocado en la <span class="text-[#C2410C] font-normal not-italic font-sans">resiliencia, seguridad e idempotencia.</span>',
+    quote: "La solidez de una arquitectura distribuida no radica en evitar fallos, sino en su diseño idempotente y reactivo, capaz de procesar millones de transacciones de forma segura y predecible.",
     paragraphs: [
-      "Soy un Desarrollador Fullstack apasionado por el ecosistema Backend y QA Automation. Cuento con una sólida trayectoria en el diseño e implementación de arquitecturas escalables, microservicios y soluciones distribuidas utilizando Node.js (NestJS), TypeScript, React, Next.js y Java (Spring Boot).",
-      "Mi experiencia incluye la integración robusta de servicios en la nube con AWS (Lambda, API Gateway, S3, DynamoDB, Cognito) y Azure Functions. Aplico fielmente los principios de la Arquitectura Hexagonal y Arquitectura Limpia (BFF) para crear sistemas modulares, sumamente eficientes y con alta tolerancia a fallos.",
-      "Además, garantizo la calidad del software liderando frameworks personalizados de automatización de pruebas de extremo a extremo (E2E), regresión y validaciones funcionales en entornos bancarios y empresariales de alto impacto utilizando Selenium WebDriver, Serenity BDD, Playwright y JMeter."
+      "Soy un Líder Técnico y Desarrollador Fullstack apasionado por la arquitectura backend y QA Automation. Con una sólida trayectoria en el diseño de plataformas transaccionales de alto impacto utilizando Node.js (NestJS), TypeScript, React, Next.js y Java (Spring Boot), me especializo en estructurar soluciones desacopladas y escalables.",
+      "Cuento con amplia experiencia en la integración de servicios cloud robustos sobre AWS y Azure (Azure Functions), manejando patrones avanzados de idempotencia transaccional extrema y orquestación de eventos distribuida mediante colas y tópicos de Azure (Service Bus) y Redis.",
+      "A lo largo de mi carrera, he realizado e integrado APIs críticas de core bancario y servicios de Transunion para la validación segura de identidad. Además, he diseñado motores de decisión dinámica con Zen Engine, desarrollado y empaquetado librerías compartidas tanto backend (NPM/NuGet) como frontend, y automatizado pipelines de extracción inteligente de metadata mediante OCR con Inteligencia Artificial."
     ]
   },
   stack: {
     sectionLabel: "Stack Tecnológico",
-    titleHtml: 'Tecnologías y herramientas <span class="text-[#C2410C] font-normal not-italic font-sans">probadas en producción.</span>',
-    description: "Una selección de lenguajes, frameworks, automatización y bases de datos integradas bajo los mejores estándares de calidad de software.",
+    titleHtml: 'Ecosistema de arquitectura <span class="text-[#C2410C] font-normal not-italic font-sans">y calidad transaccional.</span>',
+    description: "Tecnologías y patrones de diseño implementados bajo estándares empresariales y de seguridad de la información.",
     tickerItems: [
-      "NESTJS MICROSERVICES",
-      "NODE.JS FULLSTACK",
+      "TECHNICAL LEAD",
+      "NESTJS & NODE.JS",
+      "AZURE SERVICE BUS (TOPICS)",
+      "REDIS & IDEMPOTENCIA",
+      "ZEN ENGINE RULES",
+      "TRANSUNION API INTEGRATION",
       "REACT & NEXTJS (BFF)",
-      "JAVA SPRING BOOT",
-      "AWS CLOUD & SERVERLESS",
-      "QA AUTOMATION",
-      "SELENIUM & PLAYWRIGHT",
-      "HEXAGONAL ARCHITECTURE",
-      "REDIS TRANSACCIONAL"
+      "QA AUTOMATION CORE",
+      "LIBRERÍAS BACK & FRONT"
     ],
     techCards: [
       {
         num: "01",
-        title: 'NestJS & Node.js',
-        description: 'Creación de microservicios rápidos, modulares e impulsados por eventos bajo arquitectura hexagonal y patrones de diseño limpios.',
+        title: 'NestJS & Node.js Core',
+        description: 'Creación de microservicios elásticos, diseño de BFFs y desarrollo de librerías empaquetadas modulares y reutilizables para backend.',
         iconName: 'Cpu',
-        tags: ['NestJS', 'TypeScript', 'Node.js', 'BFF', 'REST APIs'],
+        tags: ['NestJS', 'TypeScript', 'BFF Architecture', 'Librerías NPM', 'Node.js'],
         gridSpan: 'md:col-span-8',
         glowColor: 'group-hover:border-[#C2410C]/20'
       },
       {
         num: "02",
         title: 'React & Next.js',
-        description: 'Diseño e implementación de interfaces modernas, reactivas y de alto rendimiento utilizando arquitectura de BFF para consumir APIs eficientemente.',
+        description: 'Diseño e integración de interfaces corporativas ágiles conectadas a través de capas BFF, empaquetando componentes UI listos para usar.',
         iconName: 'Code',
-        tags: ['React', 'Next.js', 'TailwindCSS', 'BFF', 'TypeScript'],
+        tags: ['React', 'Next.js', 'TailwindCSS', 'BFF integration', 'Librerías Frontend'],
         gridSpan: 'md:col-span-4 md:row-span-2',
         glowColor: 'group-hover:border-[#C2410C]/20'
       },
       {
         num: "03",
-        title: 'AWS & Cloud Services',
-        description: 'Diseño e implementación de infraestructuras serverless y elásticas, listas para soportar cargas dinámicas y consistencia transaccional a escala.',
+        title: 'Cloud, Colas & Tópicos',
+        description: 'Diseño de flujos serverless sobre AWS y Azure. Orquestación de mensajería asíncrona altamente desacoplada.',
         iconName: 'Cloud',
-        tags: ['Lambda', 'API Gateway', 'Cognito', 'S3', 'DynamoDB', 'Azure Functions'],
+        tags: ['AWS Lambda', 'API Gateway', 'Azure Functions', 'Colas & Tópicos de Azure', 'Service Bus'],
         gridSpan: 'md:col-span-4',
         glowColor: 'group-hover:border-[#C2410C]/20'
       },
       {
         num: "04",
-        title: 'Bases de Datos',
-        description: 'Modelado relacional y no relacional de alta velocidad para persistencia consistente, colas de mensajería y caché transaccional.',
+        title: 'Consistencia & Datos',
+        description: 'Manejo de almacenamiento transaccional y caché distribuida para garantizar la idempotencia de los datos y evitar duplicidades.',
         iconName: 'Database',
-        tags: ['MongoDB', 'DynamoDB', 'MySQL', 'Redis'],
+        tags: ['Redis (Concurrencia)', 'Idempotencia', 'MongoDB', 'MySQL', 'DynamoDB'],
         gridSpan: 'md:col-span-4',
         glowColor: 'group-hover:border-[#C2410C]/20'
       },
       {
         num: "05",
-        title: 'QA & Automation',
-        description: 'Desarrollo de frameworks automatizados de extremo a extremo, pruebas de regresión, integración continua y validación de APIs SOAP/REST.',
+        title: 'Motores & Integraciones',
+        description: 'Implementación de motores de decisión rápidos en Rust (Zen Engine), extracción de metadatos OCR y validación de identidad con Transunion.',
         iconName: 'Scan',
-        tags: ['Selenium', 'Serenity BDD', 'JMeter', 'Playwright', 'Cucumber'],
+        tags: ['Zen Engine', 'Transunion API', 'Bancarias APIs', 'OCR Inteligente', 'SOAP/REST'],
         gridSpan: 'md:col-span-4',
         glowColor: 'group-hover:border-[#C2410C]/20'
       },
       {
         num: "06",
-        title: 'Arquitectura & DevOps',
-        description: 'Sólida base metodológica aplicando Arquitectura Hexagonal, principios SOLID, seguridad JWT y despliegues robustos con contenedores.',
+        title: 'Calidad & Automatización',
+        description: 'Desarrollo de frameworks automatizados E2E y de carga, aplicando arquitectura limpia y metodologías ágiles como Technical Lead.',
         iconName: 'SquaresFour',
-        tags: ['Hexagonal', 'JWT Security', 'Docker', 'Git & GitHub', 'CI/CD Pipelines'],
+        tags: ['Selenium', 'Playwright', 'JMeter', 'Serenity BDD', 'CI/CD Pipelines'],
         gridSpan: 'md:col-span-8',
         glowColor: 'group-hover:border-[#C2410C]/20'
       }
@@ -128,19 +129,22 @@ export const portfolioData = {
   },
   experience: {
     sectionLabel: "Trayectoria Profesional",
-    titleHtml: 'Experiencia real <span class="text-[#C2410C] font-normal not-italic font-sans">probada en entornos bancarios y cloud.</span>',
-    description: "Un desglose detallado de mis roles de alta responsabilidad, liderando soluciones backend robustas y QA automatizado para empresas del sector financiero y de tecnología.",
+    titleHtml: 'Liderazgo técnico y backend <span class="text-[#C2410C] font-normal not-italic font-sans">probados en producción.</span>',
+    description: "Un desglose de mis roles de alta responsabilidad como Líder Técnico, diseñando e integrando soluciones backend críticas e interfaces frontend modulares.",
     timeline: [
       {
-        role: 'Desarrollador Backend - QA Automation',
+        role: 'Líder Técnico (Backend Architect & Fullstack)',
         company: 'Banco Caja Social',
         period: 'ENERO 2022 - ACTUALMENTE',
         highlights: [
-          'Desarrollo de microservicios robustos y elásticos con NestJS, MongoDB, Redis y Azure Functions, aplicando rigurosamente arquitectura hexagonal y buenas prácticas de seguridad.',
-          'Diseño y despliegue de autenticación y autorización segura con JWT, incluyendo lógica avanzada de encriptación/desencriptación del body en el API Gateway.',
-          'Manejo eficiente de colas de mensajería asíncronas, cronjobs y control avanzado de concurrencia transaccional implementado en Redis.',
-          'Apoyo integral en la ingeniería backend para productos financieros de alto impacto como Crédito Digital, CDT y BREB.',
-          'Automatización de pruebas integrales con Selenium WebDriver, Serenity BDD y JMeter en entornos productivos y preproductivos de alta sensibilidad.'
+          'Dirección técnica y desarrollo de microservicios bancarios elásticos y BFFs usando NestJS, MongoDB, Redis y Azure Functions bajo arquitectura hexagonal.',
+          'Diseño y despliegue de patrones estrictos de idempotencia transaccional extrema en el backend para garantizar la consistencia absoluta de procesos financieros concurrentes.',
+          'Integración de APIs críticas de core bancario y servicios de Transunion para flujos robustos de validación de identidad segura.',
+          'Orquestación de mensajería asíncrona reactiva mediante colas y tópicos de Azure (Service Bus) para la integración de sistemas distribuidos y desacoplados.',
+          'Implementación de flujos de automatización de extracción de datos mediante servicios OCR inteligentes, digitalizando documentos con altísima precisión.',
+          'Diseño y desarrollo del motor de reglas de decisión transaccional y scoring dinámico en tiempo real utilizando Zen Engine.',
+          'Creación, mantenimiento y empaquetado de librerías comunes y compartidas, tanto para backend (NPM/Node.js) como para frontend (librerías de componentes UI React).',
+          'Autenticación/autorización con JWT con encriptación avanzada del body en API Gateway, y liderazgo de la estrategia de QA Automation corporativa con Selenium, Serenity BDD y JMeter.'
         ]
       },
       {
@@ -195,19 +199,19 @@ export const portfolioData = {
     list: [
       {
         title: 'Microservicios Transaccionales - BCS',
-        description: 'Arquitectura modular de microservicios diseñada para el procesamiento y orquestación de transacciones financieras de manera elástica.',
+        description: 'Arquitectura modular de microservicios diseñada para el procesamiento y orquestación de transacciones financieras elásticas, integrando APIs bancarias y de Transunion.',
         image: '/bcs_services.png',
-        stack: ['NestJS', 'MongoDB', 'Redis', 'Azure Functions', 'Hexagonal'],
-        achievement: 'Estructurado bajo arquitectura hexagonal con encriptación de payloads en API Gateway.',
+        stack: ['NestJS', 'MongoDB', 'Transunion', 'idempotencia', 'Hexagonal'],
+        achievement: 'Estructurado bajo arquitectura hexagonal, idempotencia y autenticación JWT con encriptación.',
         codeLink: '#',
         demoLink: '#',
         asymmetricOffset: 'lg:mt-0'
       },
       {
         title: 'Ecosistema Cloud Fullstack - OTTO',
-        description: 'Plataforma completa de desarrollo web fullstack desplegada en la nube sobre infraestructura elástica serverless.',
+        description: 'Plataforma completa de desarrollo web fullstack desplegada en la nube sobre infraestructura elástica serverless, empaquetando librerías.',
         image: '/otto_cloud.png',
-        stack: ['React', 'Next.js', 'NestJS', 'AWS Lambda', 'DynamoDB', 'Cognito'],
+        stack: ['React', 'Next.js', 'NestJS', 'AWS Lambda', 'DynamoDB', 'Librerías'],
         achievement: 'Desplegado en AWS con autenticación segura y base de datos NoSQL de alta velocidad.',
         codeLink: '#',
         demoLink: '#',
@@ -224,11 +228,11 @@ export const portfolioData = {
         asymmetricOffset: 'lg:-mt-12'
       },
       {
-        title: 'Tubería de Concurrencia con Redis',
-        description: 'Motor asíncrono de alto rendimiento para la orquestación y balance de colas de mensajería pesadas y tareas cronjobs.',
+        title: 'Orquestador Zen Engine & Colas',
+        description: 'Motor asíncrono transaccional con reglas complejas (Zen Engine) y mensajería elástica con colas y tópicos de Azure.',
         image: '/concurrency_redis.png',
-        stack: ['Redis', 'NestJS', 'TypeScript', 'Cronjobs', 'Colas'],
-        achievement: 'Garantiza la consistencia y sincronía de miles de procesos bancarios concurrentes en segundo plano.',
+        stack: ['Zen Engine', 'Azure Service Bus', 'Colas & Tópicos', 'Azure Functions'],
+        achievement: 'Orquestación de Scoring y mensajería desacoplada tolerante a fallos para millones de operaciones concurrentes.',
         codeLink: '#',
         demoLink: '#',
         asymmetricOffset: 'lg:mt-4'
@@ -240,10 +244,10 @@ export const portfolioData = {
     titleHtml: 'Respaldado por <span class="text-[#C2410C] font-normal not-italic font-sans">líderes de la industria.</span>',
     list: [
       {
-        quote: 'Estructuró un microservicio de colas robusto y seguro que procesa transacciones financieras con cero pérdidas de datos.',
+        quote: 'Su liderazgo en la integración del motor Zen Engine y el diseño idempotente con colas y tópicos de Azure garantizó el éxito del Scoring bancario.',
         author: 'Alejandro Benítez',
-        role: 'Líder Técnico',
-        company: 'Fintech Payments Latam'
+        role: 'Arquitecto Principal',
+        company: 'Banco Caja Social'
       },
       {
         quote: 'Su diseño serverless en AWS resistió picos de concurrencia masivos durante lanzamientos críticos sin una sola desconexión.',
@@ -252,21 +256,21 @@ export const portfolioData = {
         company: 'Tech Solutions Global'
       },
       {
-        quote: 'Los frameworks de automatización que diseñó redujeron drásticamente los errores en producción y aceleraron nuestras entregas.',
+        quote: 'Los frameworks de automatización y las librerías compartidas que diseñó aceleraron la entrega de proyectos en un 40%.',
         author: 'Daniel Rivas',
-        role: 'Director de QA',
-        company: 'Banco Caja Social'
+        role: 'Director de Ingeniería',
+        company: 'Fintech Payments Latam'
       }
     ] as Testimonial[]
   },
   contact: {
     sectionLabel: "Hablemos",
     titleHtml: 'Escribamos la próxima capa de tu <span class="text-[#C2410C] font-normal not-italic font-sans">infraestructura.</span>',
-    description: "¿Tienes un flujo transaccional legado que optimizar? ¿O una nueva solución web fullstack que requiere una arquitectura escalable desde el día uno? Escríbeme y diseñemos la solución ideal.",
+    description: "¿Tienes un flujo transaccional legado que optimizar? ¿O una nueva solución web fullstack que requiere un diseño de librerías modular desde el día uno? Escríbeme y diseñemos la solución ideal.",
     email: "gavilanm20@icloud.com",
     githubUrl: "https://github.com/gavilanm26",
     linkedinUrl: "https://linkedin.com/in/mauricio-gavilan-aguiar-972028155",
-    quote: "La calidad de software y el código limpio no son un lujo, son la póliza de seguro de tu negocio."
+    quote: "La calidad de software, la robustez transaccional y la idempotencia no son un lujo, son la póliza de seguro de tu negocio."
   },
   education: {
     sectionLabel: "Educación & Estudios",

@@ -76,7 +76,7 @@ export function Hero() {
               className="inline-flex items-center gap-2 rounded-full border border-white/40 bg-[#F3EFEA]/80 px-3.5 py-1 text-[9px] uppercase tracking-[0.2em] font-bold text-[#1C1A17] shadow-sm"
             >
               <TerminalWindow size={10} className="text-[#C2410C]" />
-              <span>Backend Architect</span>
+              <span>{portfolioData.hero.roleBadge}</span>
             </motion.div>
           </div>
 
