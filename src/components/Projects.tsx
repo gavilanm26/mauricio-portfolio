@@ -75,7 +75,7 @@ export function Projects() {
   return (
     <section 
       id="projects" 
-      className="relative w-full px-4 md:px-8 py-32 md:py-44 bg-[#FAF8F5] overflow-hidden"
+      className="relative w-full px-4 md:px-8 py-20 md:py-24 bg-[#FAF8F5] overflow-hidden"
     >
       {/* Background Graphic Grid */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(28,26,23,0.01)_1px,transparent_1px),linear-gradient(to_bottom,rgba(28,26,23,0.01)_1px,transparent_1px)] bg-[size:5rem_5rem] pointer-events-none" />

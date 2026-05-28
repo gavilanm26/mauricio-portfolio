@@ -141,7 +141,7 @@ export function TechStack() {
   return (
     <section 
       id="stack" 
-      className="relative w-full px-4 md:px-8 py-32 md:py-44 bg-[#FAF8F5] overflow-hidden"
+      className="relative w-full px-4 md:px-8 py-20 md:py-24 bg-[#F3EFEA] overflow-hidden"
     >
       {/* Background Graphic lines */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-7xl h-full flex justify-between pointer-events-none opacity-[0.02] z-0">

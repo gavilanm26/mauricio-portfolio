@@ -39,7 +39,7 @@ export interface Testimonial {
 export const portfolioData = {
   hero: {
     roleBadge: "Líder Técnico & Backend Architect",
-    headline: "Desarrollo soluciones digitales de punta a punta, seguras, escalables y enfocadas en producción.",
+    headline: "Diseño arquitecturas backend de alta concurrencia, resiliencia extrema e idempotencia transaccional.",
     description: "Especializado en diseñar arquitecturas de alta concurrencia con NestJS, Node.js y React/Next.js. Experto en mensajería asíncrona mediante colas y tópicos de Azure, bases de datos MongoDB/Redis, extracción inteligente de datos con OCR, validación de identidad con APIs bancarias/Transunion, motores de reglas Zen Engine y empaquetamiento de librerías backend y frontend.",
     terminalCommand: "curl -s https://api.gavilanm.dev/v1/profile",
     primaryButton: "Ver Proyectos",

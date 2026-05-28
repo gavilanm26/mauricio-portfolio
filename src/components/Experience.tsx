@@ -10,7 +10,7 @@ export function Experience() {
   return (
     <section 
       id="experience" 
-      className="relative w-full px-4 md:px-8 py-32 md:py-44 bg-[#FAF8F5] overflow-hidden"
+      className="relative w-full px-4 md:px-8 py-20 md:py-24 bg-[#F3EFEA] overflow-hidden"
     >
       <div className="relative z-10 w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
         {/* Left Column: Fixed Header (sticky-like behavior on large screen) */}

@@ -46,7 +46,7 @@ export function Testimonials() {
   return (
     <section 
       id="testimonials" 
-      className="relative w-full px-4 md:px-8 py-32 md:py-44 bg-[#FAF8F5] overflow-hidden"
+      className="relative w-full px-4 md:px-8 py-20 md:py-24 bg-[#FAF8F5] overflow-hidden"
     >
       {/* Subtle organic light sepia glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[40vw] w-[40vw] bg-[#C2410C]/2 rounded-full filter blur-[130px] pointer-events-none" />
