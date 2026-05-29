@@ -34,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={`${cormorant.variable} ${plusJakarta.variable} ${geistMono.variable} scroll-smooth`}>
-      <body className="antialiased selection:bg-orange-700 selection:text-white bg-[#FAF8F5] text-[#1C1A17]">
+      <body className="antialiased selection:bg-[#1C1A17] selection:text-[#FAF8F5] bg-[#FAF8F5] text-[#1C1A17]">
         <script
           dangerouslySetInnerHTML={{
             __html: `

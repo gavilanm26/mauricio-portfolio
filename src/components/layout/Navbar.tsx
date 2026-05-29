@@ -27,16 +27,16 @@ export function Navbar() {
         initial={{ y: -60, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-        className="fixed top-6 left-0 right-0 z-50 mx-auto w-[92%] max-w-2xl rounded-full border border-white/20 bg-[#FAF8F5]/40 p-2.5 backdrop-blur-2xl shadow-[inset_0_1px_0_rgba(255,255,255,0.4),0_15px_30px_rgba(28,26,23,0.03)]"
+        className="fixed top-6 left-0 right-0 z-50 mx-auto w-[92%] max-w-md md:max-w-4xl rounded-full border border-white/20 bg-[#FAF8F5]/40 p-2.5 backdrop-blur-2xl shadow-[inset_0_1px_0_rgba(255,255,255,0.4),0_15px_30px_rgba(28,26,23,0.03)]"
       >
         <div className="flex items-center justify-between px-3">
           {/* Logo Brand / Availability */}
           <div className="flex items-center gap-3">
-            <a href="#home" className="text-xs font-bold tracking-[0.2em] text-[#1C1A17] uppercase">
+            <a href="#home" className="text-xs font-bold tracking-[0.2em] text-[#1C1A17] uppercase shrink-0">
               MAURICIO<span className="text-[#C2410C] font-light">GAVILAN</span>
             </a>
             {/* Live Availability Badge */}
-            <div className="hidden sm:flex items-center gap-1.5 rounded-full border border-[#C2410C]/10 bg-[#C2410C]/5 px-2.5 py-0.5">
+            <div className="hidden sm:flex items-center gap-1.5 rounded-full border border-[#C2410C]/10 bg-[#C2410C]/5 px-2.5 py-0.5 shrink-0">
               <span className="relative flex h-1.5 w-1.5">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#C2410C] opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-[#C2410C]"></span>
@@ -53,7 +53,7 @@ export function Navbar() {
                 href={link.href}
                 onMouseEnter={() => setHoveredIndex(idx)}
                 onMouseLeave={() => setHoveredIndex(null)}
-                className="relative px-3.5 py-1.5 text-[9px] uppercase font-bold text-[#6B6661] hover:text-[#1C1A17] transition-colors duration-300 tracking-wider z-10"
+                className="relative px-3.5 py-1.5 text-[9px] uppercase font-bold text-[#6B6661] hover:text-[#1C1A17] transition-colors duration-300 tracking-wider z-10 whitespace-nowrap"
               >
                 <span className="relative z-20">{link.label}</span>
                 {hoveredIndex === idx && !reduceMotion && (
@@ -66,12 +66,12 @@ export function Navbar() {
               </a>
             ))}
           </div>
-
+ 
           {/* Hamburger Icon */}
           <button 
             onClick={toggleMenu}
             aria-label="Abrir Menú de Navegación"
-            className="flex items-center justify-center p-2 rounded-full text-[#6B6661] hover:text-[#1C1A17] hover:bg-[#F3EFEA] transition-all duration-300"
+            className="md:hidden flex items-center justify-center p-2 rounded-full text-[#6B6661] hover:text-[#1C1A17] hover:bg-[#F3EFEA] transition-all duration-300 shrink-0"
             style={{ cursor: 'pointer' }}
           >
             {isOpen ? <X size={16} weight="bold" /> : <List size={16} weight="bold" />}

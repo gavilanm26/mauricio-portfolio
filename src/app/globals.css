@@ -167,3 +167,13 @@ body {
   overflow-x: hidden;
   position: relative;
 }
+
+/* Estilo de Selección Global de Alto Contraste Premium */
+::selection {
+  background-color: #1C1A17 !important;
+  color: #FAF8F5 !important;
+}
+::-moz-selection {
+  background-color: #1C1A17 !important;
+  color: #FAF8F5 !important;
+}

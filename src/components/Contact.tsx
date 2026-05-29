@@ -177,7 +177,7 @@ export function Contact() {
           <div className="double-bezel-outer rounded-[2rem] p-1.5 w-full aspect-[21/9] overflow-hidden group shadow-[0_15px_30px_rgba(28,26,23,0.02)] border-white/50">
             <div className="double-bezel-inner rounded-[calc(2rem-0.5rem)] overflow-hidden h-full w-full relative">
               <img 
-                src="https://picsum.photos/seed/warm-mechanical-keyboard-night-lamp/800/600" 
+                src="/contact_nocturnal.png" 
                 alt="Mauricio Gavilan Elegant Keyboard Setup Night" 
                 className="object-cover h-full w-full opacity-90 transition-transform duration-700 group-hover:scale-105"
               />
